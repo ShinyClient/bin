@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/fury/Documents/GitHub/bin/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Minecraft 1.19.2",
+    "description": "Minecraft servers for combat training to become more robust than the competition!",
+    "icon": "https://imagedelivery.net/UntdIRhVcqwJ5qM8cvSL6w/ac566ab9-a965-415e-69ef-3ac6d2d9e600/logoultra",
+    "address": "play.pvplegacy.net",
+    "discord": {
+      "shortId": "",
+      "largeImageText": "",
+      "largeImageKey": ""
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.0"
+  },
+  "untrackedFiles": []
+}

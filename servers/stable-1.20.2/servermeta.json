@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/fury/Documents/GitHub/bin/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "stable (Minecraft 1.20.2)",
+    "description": "stable Running Minecraft 1.20.2 (Fabric v0.15.0)",
+    "icon": "https://hypixel.net/styles/hypixel-v2/images/game-icons/SMP-128.png",
+    "address": "mc.hypixel.net",
+    "discord": {
+      "shortId": "Minecraft 1.20.2",
+      "largeImageText": "Minecraft 1.20.2",
+      "largeImageKey": "Minecraft"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.15.0"
+  },
+  "untrackedFiles": []
+}
