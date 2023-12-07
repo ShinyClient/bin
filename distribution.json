@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://xenforo.com/community/forums/-/index.rss",
+  "rss": "",
   "discord": {
     "clientId": "1170325502448369674",
     "smallImageText": "Shiny",
@@ -8,454 +8,11 @@
   },
   "servers": [
     {
-      "id": "bedwars-1.8.9",
-      "name": "BedWars 1.8.9",
-      "description": "A strategic game mode where players must carefully defend their own bed, whilst bravely attacking and destroying other players' beds!",
-      "icon": "https://hypixel.net/styles/hypixel-v2/images/game-icons/BedWars-64.png",
-      "version": "1.0.0",
-      "address": "mc.hypixel.net",
-      "minecraftVersion": "1.8.9",
-      "discord": {
-        "shortId": "BedWars",
-        "largeImageText": "BedWars 1.8.9",
-        "largeImageKey": "bedwars"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9:universal",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 3805686,
-            "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
-            "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-all:5.0.3@jar",
-              "name": "Minecraft Forge (asm-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 241639,
-                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
-              }
-            },
-            {
-              "id": "jline:jline:2.13@jar",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 248566,
-                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/jline/jline/2.13/jline-2.13.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:4.6@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 62477,
-                "MD5": "13560a58a79b46b82057686543e8d727",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "dev.isxander.behindyou:behindyouv3:3.1.2@jar",
-          "name": "BehindYouV3",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 26252,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionaloff/BehindYouV3-1.8.9-forge-3.1.2.jar",
-            "MD5": "a124150da3f9bd2e14b6f8deeae168b9"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "dev.salmon:betterhurtcam:2.2.0@jar",
-          "name": "BetterHurtCam",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 31291,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/BetterHurtCam-2.2.0.jar",
-            "MD5": "dab61518c04ff395d9d8bd0e50458aa6"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.polyfrost:chatting:1.5.0@jar",
-          "name": "Chatting",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 161526,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/Chatting-1.8.9-forge-1.5.0.jar",
-            "MD5": "1b604d41de1de07f04ad080143b3d1e4"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.polyfrost:crashpatch:2.0.0@jar",
-          "name": "CrashPatch",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 577881,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/CrashPatch-1.8.9-forge-2.0.0.jar",
-            "MD5": "71e06109aab9300d89c04590255fdeb8"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.polyfrost:damagetint:3.3.0@jar",
-          "name": "DamageTint",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 21766,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/DamageTint-1.8.9-forge-3.3.0.jar",
-            "MD5": "2195418367d7a56badb11e26514f2845"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "dev.tr7zw:entityculling:1.5.0@jar",
-          "name": "EntityCulling",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3659166,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/entityculling-forge-mc1.8.9-1.5.0.jar",
-            "MD5": "62e81418a6c903fa7282a197e66d04a5"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "pl.asie:foamfix:0.6.3a@jar",
-          "name": "FoamFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 86043,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/foamfix-0.6.3a-anarchy-1.8.x.jar",
-            "MD5": "8f5c066d62f22e6eebc4161d59c4d159"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "bre.fpsreducer:FpsReducer:mc1.8.9-1.10.3@jar",
-          "name": "FPS Reducer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 43481,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/FpsReducer-mc1.8.9-1.10.3.jar",
-            "MD5": "b6889b7460ff2f66b6841dfdf30496a3"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.polyfrost:glintcolorizer:1.0.2@jar",
-          "name": "GlintColorizer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 26912,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/GlintColorizer-1.8.9-forge-1.0.2.jar",
-            "MD5": "0b345d684f7bc2ead9eed431808590f4"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.polyfrost.hytils:hytils-reborn:1.6.0@jar",
-          "name": "Hytils Reborn",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 352107,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/Hytils-Reborn-1.6.0.jar",
-            "MD5": "59d16f33d3d908d1c5e8f2c3cc55a296"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "dev.salmon.keystrokes:polyfrostkeystrokes:1.0.0@jar",
-          "name": "Keystrokes",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 28299,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/Keystrokes-1.8.9-forge-1.0.0.jar",
-            "MD5": "008d699af183a14bdd6fdad143cf8de9"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.optifine:optifine:1.8.9_HD_U_M5@jar",
-          "name": "OptiFine 1.8.9_HD_U_M5",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2585014,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/required/optifine.jar",
-            "MD5": "0765dc1bcbe5baa83f7c261ac2c133ed"
-          }
-        },
-        {
-          "id": "org.polyfrost:overflowanimations:2.0.0@jar",
-          "name": "OverflowAnimations",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 70715,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/OverflowAnimations-1.8.9-forge-2.0.0.jar",
-            "MD5": "962664c1a253e0a9e2acedb8882937e2"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "club.sk1er:patcher:1.8.7@jar",
-          "name": "Patcher",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 712241,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/patcher.jar",
-            "MD5": "cf7c9706c8a7a94dbb2c48f00d883a7a"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.polyfrost:polyblur:1.0.0@jar",
-          "name": "PolyBlur",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 53292,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/PolyBlur-1.8.9-forge-1.0.0.jar",
-            "MD5": "9d7521c6f30ee6910009135f192089c8"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.polyfrost:polysprint:1.0.0@jar",
-          "name": "PolySprint",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 66861,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/PolySprint-1.8.9-forge-1.0.0.jar",
-            "MD5": "0cc505b1258c03a76c162a5f509a2c55"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.wyvest:redaction:1.3.7@jar",
-          "name": "REDACTION",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 391973,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionaloff/REDACTION-1.8.9-forge-1.3.7.jar",
-            "MD5": "6c6a8b1d9cbd61b4869f283b0620c852"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "org.polyfrost:vanillahud:2.0.1@jar",
-          "name": "VanillaHUD",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 43737,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/bedwars-1.8.9/forgemods/optionalon/VanillaHUD-1.8.9-forge-2.0.1.jar",
-            "MD5": "df9e99a450bd26f8908ff3a3de5f6ae5"
-          },
-          "required": {
-            "value": false
-          }
-        }
-      ]
-    },
-    {
       "id": "skyblock-1.8.9",
-      "name": "Hypixel SkyBlock (Minecraft 1.8.9)",
-      "description": "Play with friends (or solo!), build your private islands and collect all the items!",
+      "name": "Hypixel SkyBlock",
+      "description": "Play with friends (or solo!)",
       "icon": "https://hypixel.net/styles/hypixel-v2/images/game-icons/SkyBlock-64.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "mc.hypixel.net",
       "minecraftVersion": "1.8.9",
       "discord": {
@@ -463,7 +20,7 @@
         "largeImageText": "Hypixel SkyBlock",
         "largeImageKey": "skyblock"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -659,52 +216,26 @@
           ]
         },
         {
-          "id": "org.polyfrost:chatting:1.5.0@jar",
-          "name": "Chatting",
+          "id": "io.github.quantizr:dungeonrooms:3.4.0@jar",
+          "name": "Dungeon Rooms Mod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 161526,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/Chatting-1.8.9-forge-1.5.0.jar",
-            "MD5": "1b604d41de1de07f04ad080143b3d1e4"
+            "size": 7508127,
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/Dungeon_Rooms.jar",
+            "MD5": "d6f1705fece6bb95eaa62181d5780522"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "org.polyfrost:crashpatch:2.0.0@jar",
-          "name": "CrashPatch",
+          "id": "io.github.moulberry:notenoughupdates:2.1+9dff9de@jar",
+          "name": "NotEnoughUpdates",
           "type": "ForgeMod",
           "artifact": {
-            "size": 577881,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/CrashPatch-1.8.9-forge-2.0.0.jar",
-            "MD5": "71e06109aab9300d89c04590255fdeb8"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "bre.fpsreducer:FpsReducer:mc1.8.9-1.10.3@jar",
-          "name": "FPS Reducer",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 43481,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/FpsReducer-mc1.8.9-1.10.3.jar",
-            "MD5": "b6889b7460ff2f66b6841dfdf30496a3"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "org.polyfrost.hytils:hytils-reborn:1.6.0@jar",
-          "name": "Hytils Reborn",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 352107,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/Hytils-Reborn-1.6.0.jar",
-            "MD5": "59d16f33d3d908d1c5e8f2c3cc55a296"
+            "size": 18395465,
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/NotEnoughUpdates.jar",
+            "MD5": "337223d1aa4a36cac5a52de515fbdfa3"
           },
           "required": {
             "value": false
@@ -716,8 +247,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2585014,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/required/optifine.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/Optifine.jar",
             "MD5": "0765dc1bcbe5baa83f7c261ac2c133ed"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -726,7 +260,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 70715,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/OverflowAnimations-1.8.9-forge-2.0.0.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/OverflowAnimations.jar",
             "MD5": "962664c1a253e0a9e2acedb8882937e2"
           },
           "required": {
@@ -739,7 +273,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 712241,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/patcher.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/Patcher.jar",
             "MD5": "cf7c9706c8a7a94dbb2c48f00d883a7a"
           },
           "required": {
@@ -752,25 +286,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 66861,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/PolySprint-1.8.9-forge-1.0.0.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/PolySprint.jar",
             "MD5": "0cc505b1258c03a76c162a5f509a2c55"
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "codes.biscuit:skyblockaddons:1.7.2@jar",
-          "name": "SkyblockAddons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4065140,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionaloff/sba.jar",
-            "MD5": "324c3aeb8e51de577e4e131fc0d99b9a"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
@@ -779,8 +299,24 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 41132,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/required/scrollabletooltips.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/ScrollableToolTips.jar",
             "MD5": "05cc200b46c6eea4d918300aacd74ea1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "gg.skytils.skytilsmod:skytils:1.7.9@jar",
+          "name": "Skytils",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20150269,
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/Skytils.jar",
+            "MD5": "4f6c4a92077d134a0579006d6f012c7b"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -789,7 +325,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 43737,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/VanillaHUD-1.8.9-forge-2.0.1.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/skyblock-1.8.9/forgemods/optionalon/VanillaHUD.jar",
             "MD5": "df9e99a450bd26f8908ff3a3de5f6ae5"
           },
           "required": {
@@ -830,7 +366,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "9c6b3fcc58ea8cb2c167c6d26d476e56",
+                "MD5": "81c3c3de5ba3e3e8cae7e5d05304e83e",
                 "url": "https://github.com/ShinyClient/bin/raw/main/repo/versions/1.19.2-fabric-0.15.0/1.19.2-fabric-0.15.0.json"
               }
             },
@@ -925,8 +461,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1892953,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.19.2/fabricmods/required/fabric-api-0.77.0+1.19.2.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.19.2/fabricmods/optionalon/fabric-api-0.77.0+1.19.2.jar",
             "MD5": "30b3edc778c229b3d80e6c244ffbc6b2"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -959,8 +498,8 @@
     },
     {
       "id": "stable-1.20.2",
-      "name": "stable (Minecraft 1.20.2)",
-      "description": "stable Running Minecraft 1.20.2 (Fabric v0.15.0)",
+      "name": "Minecraft 1.20.2",
+      "description": "Latest version of Minecraft to explore the world.",
       "icon": "https://hypixel.net/styles/hypixel-v2/images/game-icons/SMP-128.png",
       "version": "1.0.0",
       "address": "mc.hypixel.net",
@@ -989,7 +528,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2847,
-                "MD5": "31b91e563998b85051aecf119a66d7dc",
+                "MD5": "458a817af90e606b8053294aadcf5783",
                 "url": "https://github.com/ShinyClient/bin/raw/main/repo/versions/1.20.2-fabric-0.15.0/1.20.2-fabric-0.15.0.json"
               }
             },
@@ -1066,26 +605,16 @@
           ]
         },
         {
-          "id": "dev.tr7zw:entityculling:1.6.2-mc1.20.1@jar",
-          "name": "EntityCulling-Fabric",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 59348,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionalon/entityculling-fabric-1.6.2-mc1.20.1.jar",
-            "MD5": "29b1642d4e958fd88822e55410f70dfd"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "generated.fabricmod:fabric-api:0.91.1+1.20.2@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
             "size": 2085868,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/required/fabric-api-0.91.1+1.20.2.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionalon/fabric-api-0.91.1+1.20.2.jar",
             "MD5": "aeea8d12cc6b1978713096454afae558"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -1094,22 +623,8 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2413419,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionaloff/iris-mc1.20.2-1.6.10.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionalon/iris-mc1.20.2-1.6.10.jar",
             "MD5": "970af47699ccd6532610dc4a2f4e1f11"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "me.jellysquid.mods:lithium:0.12.0@jar",
-          "name": "Lithium",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 688442,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionalon/lithium-fabric-mc1.20.2-0.12.0.jar",
-            "MD5": "f573d4d5e65bf0fb237567afa294bbcd"
           },
           "required": {
             "value": false
@@ -1121,12 +636,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 75122,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionaloff/reeses_sodium_options-1.7.0+mc1.20.2-build.97.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionalon/reeses_sodium_options-1.7.0+mc1.20.2-build.97.jar",
             "MD5": "3f31460ff4f9d222b4369350998223d9"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -1135,12 +649,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 365767,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionaloff/sodium-extra-0.5.3+mc1.20.2-build.114.jar",
+            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionalon/sodium-extra-0.5.3+mc1.20.2-build.114.jar",
             "MD5": "2798afdb94665feda0460691463b7930"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
@@ -1155,19 +668,216 @@
           "required": {
             "value": false
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "stable-1.8.9",
+      "name": "Minecraft 1.8.9",
+      "description": "The Most Popular PVP Based Minecraft Version",
+      "icon": "https://raw.githubusercontent.com/ShinyClient/images/main/versions/1.8.9.png",
+      "version": "1.0.0",
+      "address": "as.minemen.club",
+      "minecraftVersion": "1.8.9",
+      "discord": {
+        "shortId": "Minecraft 1.8.9",
+        "largeImageText": "Minecraft 1.8.9",
+        "largeImageKey": "1.8.9"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
         {
-          "id": "generated.fabricmod:starlight:1.1.3+fabric.5867eae@jar",
-          "name": "Starlight",
-          "type": "FabricMod",
+          "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
           "artifact": {
-            "size": 126416,
-            "url": "https://github.com/ShinyClient/bin/raw/main/servers/stable-1.20.2/fabricmods/optionalon/starlight-1.1.3+fabric.5867eae.jar",
-            "MD5": "088661891fafd1b1aca078fff4ea19d4"
+            "size": 3805686,
+            "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
+            "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
           },
-          "required": {
-            "value": false
-          }
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "jline:jline:2.13@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 248566,
+                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/jline/jline/2.13/jline-2.13.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.6@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 62477,
+                "MD5": "13560a58a79b46b82057686543e8d727",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://github.com/ShinyClient/bin/raw/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            }
+          ]
         }
       ]
     }
