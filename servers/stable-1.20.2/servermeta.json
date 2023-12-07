@@ -2,8 +2,8 @@
   "$schema": "file:///C:/Users/fury/Documents/GitHub/bin/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "stable (Minecraft 1.20.2)",
-    "description": "stable Running Minecraft 1.20.2 (Fabric v0.15.0)",
+    "name": "Minecraft 1.20.2",
+    "description": "Latest version of Minecraft to explore the world.",
     "icon": "https://hypixel.net/styles/hypixel-v2/images/game-icons/SMP-128.png",
     "address": "mc.hypixel.net",
     "discord": {

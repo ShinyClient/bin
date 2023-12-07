@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/fury/Documents/GitHub/bin/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Minecraft 1.8.9",
+    "description": "The Most Popular PVP Based Minecraft Version",
+    "icon": "https://raw.githubusercontent.com/ShinyClient/images/main/versions/1.8.9.png",
+    "address": "as.minemen.club",
+    "discord": {
+      "shortId": "Minecraft 1.8.9",
+      "largeImageText": "Minecraft 1.8.9",
+      "largeImageKey": "1.8.9"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "11.15.1.2318"
+  },
+  "untrackedFiles": []
+}

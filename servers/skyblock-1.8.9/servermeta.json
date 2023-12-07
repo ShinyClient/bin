@@ -1,9 +1,9 @@
 {
   "$schema": "file:///C:/Users/fury/Documents/GitHub/bin/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
-    "name": "Hypixel SkyBlock (Minecraft 1.8.9)",
-    "description": "Play with friends (or solo!), build your private islands and collect all the items!",
+    "version": "1.0.1",
+    "name": "Hypixel SkyBlock",
+    "description": "Play with friends (or solo!)",
     "icon": "https://hypixel.net/styles/hypixel-v2/images/game-icons/SkyBlock-64.png",
     "address": "mc.hypixel.net",
     "discord": {
@@ -11,7 +11,7 @@
       "largeImageText": "Hypixel SkyBlock",
       "largeImageKey": "skyblock"
     },
-    "mainServer": false,
+    "mainServer": true,
     "autoconnect": false
   },
   "forge": {
